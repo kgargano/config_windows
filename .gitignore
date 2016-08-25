@@ -1,3 +1,13 @@
+#babun
+.local/
+.zcompdump*
+.zsh_history
+bin
+.pact/
+.vim/
+.oh-my-zsh/
+
+
 .bundle/
 .config/
 .dnx/
