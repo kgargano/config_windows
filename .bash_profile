@@ -38,3 +38,9 @@ pc(){
 }
 
 alias profile="funcedit ~/.bash_profile"
+
+#change directories
+alias core="cd ~/Development/Core"
+alias ctm="cd ~/AppData/Local/versionone/dev/continuum_dev/repos/"
+alias mycode="cd ~/Development/personal"
+alias dev="cd ~/Development/"
