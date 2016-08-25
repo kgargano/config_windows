@@ -12,7 +12,9 @@
 .WebStorm2016.1/
 .zenmap/
 AppData/
+ApplicationData/
 conemu/
+Cookies/
 Contacts/
 Desktop/
 Development/
@@ -21,11 +23,16 @@ Downloads/
 Favorites/
 IntelGraphicsProfiles/
 Links/
+LocalSettings/
 Music/
+My Documents/
 OneDrive/
 Pictures/
 Saved Games/
 Searches/
+Recent/
+SendTo/
+Start Menu/
 Videos/
 
 .babel.json
