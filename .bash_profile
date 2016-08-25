@@ -1,4 +1,4 @@
-export PATH=$PATH:/c/Ruby193/bin
+export PATH=$PATH:/c/Ruby193/bin:~/bashbin
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 source ~/.continuum_docker_profile
@@ -44,3 +44,4 @@ alias core="cd ~/Development/Core"
 alias ctm="cd ~/AppData/Local/versionone/dev/continuum_dev/repos/"
 alias mycode="cd ~/Development/personal"
 alias dev="cd ~/Development/"
+alias settings="source ~/.bash_profile"
