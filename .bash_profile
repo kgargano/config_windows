@@ -41,9 +41,11 @@ pc(){
 	"$EDITOR_PC" $1
 }
 
-alias profile="echo $CYGHOME/.bash_profile && edit $CYGHOME/.bash_profile"
-alias test="echo $CYGHOME/.bash_profile"
+alias profile="edit $CYGHOME/.bash_profile"
 
+#AUTOSUGGEST - why is autosuggest so slow?
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=4'
+bindkey '^ ' autosuggest-accept  
 
 #change directories
 alias core="cd $WINDOWS_HOME/Development/Core"
@@ -51,3 +53,5 @@ alias ctm="cd $WINDOWS_HOME/AppData/Local/versionone/dev/continuum_dev/repos/"
 alias mycode="cd $WINDOWS_HOME/Development/personal"
 alias dev="cd $WINDOWS_HOME/Development/"
 alias settings="source $CYGHOME/.bash_profile"
+
+cd ~
