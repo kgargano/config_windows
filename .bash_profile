@@ -52,6 +52,6 @@ alias core="cd $WINDOWS_HOME/Development/Core"
 alias ctm="cd $WINDOWS_HOME/AppData/Local/versionone/dev/continuum_dev/repos/"
 alias mycode="cd $WINDOWS_HOME/Development/personal"
 alias dev="cd $WINDOWS_HOME/Development/"
-alias settings="source $CYGHOME/.bash_profile"
+alias refresh="source $CYGHOME/.zshrc"
 
 cd ~
