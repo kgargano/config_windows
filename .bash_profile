@@ -1,7 +1,11 @@
 export PATH=$PATH:/c/Ruby193/bin:~/bashbin
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
-source ~/.continuum_docker_profile
+
+export WINDOWS_HOME=/c/Users/kgargano
+
+
+source $WINDOWS_HOME/.continuum_docker_profile
 
 export BROWSER_CHROME=/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
 
@@ -37,11 +41,13 @@ pc(){
 	"$EDITOR_PC" $1
 }
 
-alias profile="funcedit ~/.bash_profile"
+alias profile="echo $CYGHOME/.bash_profile && edit $CYGHOME/.bash_profile"
+alias test="echo $CYGHOME/.bash_profile"
+
 
 #change directories
-alias core="cd ~/Development/Core"
-alias ctm="cd ~/AppData/Local/versionone/dev/continuum_dev/repos/"
-alias mycode="cd ~/Development/personal"
-alias dev="cd ~/Development/"
-alias settings="source ~/.bash_profile"
+alias core="cd $WINDOWS_HOME/Development/Core"
+alias ctm="cd $WINDOWS_HOME/AppData/Local/versionone/dev/continuum_dev/repos/"
+alias mycode="cd $WINDOWS_HOME/Development/personal"
+alias dev="cd $WINDOWS_HOME/Development/"
+alias settings="source $CYGHOME/.bash_profile"

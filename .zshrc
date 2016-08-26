@@ -58,6 +58,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 source $ZSH/oh-my-zsh.sh
 
+export CYGHOME=$(cygpath -m ~)
+
+source $CYGHOME/.bash_profile
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
